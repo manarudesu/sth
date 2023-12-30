@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>To Nomi</title>
+  <link rel="icon" type="image/x-icon" href="/images/fly.png">
+
+  <link rel='stylesheet'
+    href='https://fonts.googleapis.com/css2?family=Short+Stack&amp;family=Homemade+Apple&amp;display=swap'>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <div class="paper" id="yes">
+    <p class="p1">
+      <img src="https://media.giphy.com/media/xUySTUZ8A2RJBQitEc/giphy.gif" alt="Cool GIF">
+    </p>
+  </div>
+
+  <div class="paper" id="props">
+    <p class="prop">
+      " will I be ur gunj nz zaluu? hoho? "
+    <br>
+    <button id="yes-button" onclick="showProposalMessage()"> Tegehees </button>
+    <button id="no-button" onclick="animateNo()"> Nope </button>
+    <p id="proposal-message"></p>
+    </p>
+
+  </div>
+
+
+  <div class="paper">
+        <p class="p1">
+          💫 wish u buhiii l sain saihan zuils 🌠
+        </p>
+  </div>
+
+  <div class="paper">
+    <p class="p1">
+      🤙 geriihneesee hol gantsaardsn medremj 
+      turuud bval shuud zalgajgaaraii 🤙
+      (just call me togloh hereggu) (‾◡◝)
+      💖 ydaj l gantsaardsn medremj turuulq bj Chadna bh 💖
+    </p>
+  </div>
+
+  
+  <div class="paper heart">
+  </div>
+
+  <div class="paper">
+    <p class="p1">
+      🥺 neere ndd ymr huuheldei hiih bol 
+      gj zunduu bodsnshd hha 🪀
+      nmaig ymr hung j boddgn ter
+      huuheldein deerees shuud haragdah bhaaa 🤌
+    </p>
+  </div>
+
+  <div class="paper">
+    <p class="p1">
+      ☺️ hedii hol bgaa c gsn chamtai bol davj 
+      chadnaaaa gsn itgel turuud bgaashd
+      huleetste uhaalag medremjte bolohoorn bh ☺️
+    </p>
+  </div>
+
+  <div class="paper">
+    <p class="p1">
+      🎧 ineediign sonsohiin tudiid l bayar bayslaar duuren bolchihdg,
+      on garah uyd bodoh husluud dotor mn chmtai ( ﹁ ﹁ ) ~→ jargaltai bh gsn husel 
+      hurtle bagtsaan hha 
+    </p>
+  </div>
+
+  <div class="paper">
+    <p class="p1">
+      🫂 Just bayrllaaaa 🫂
+    </p>
+  </div>
+
+  <div class="paper">
+    <p class="p1">
+      Ndd Sanaa tavidgt bayrllaa. ✪ ω ✪
+      <br>
+      Oiriin c gsn ireeduigee
+      nadtai tusuuldugt bayrllaaa 😁🥰
+      <br>
+      Utgagui yriag mn demjdegt bayrllaaaa \(￣︶￣*\)
+    </p>
+  </div>
+
+  <div class="paper red">
+    <p class="p1"> 
+      😍 Onii tugsguld irsn byatshaaan beleg shg hun 🎁
+      Ogt taniq hun herneee tiim dulaan
+      medremjiig ugj chaddagt ヾ(＠⌒ー⌒＠)ノ 
+      n bayrllaaa 😍
+    </p>
+  </div>
+
+  <div class="paper red">
+    <p class="p1"> 
+      Medremjude oilghguen ¯\_(ツ)_/¯. Ygd c um…
+      Ugude-feeling 🤗
+    </p>
+  </div>
+
+  <div class="paper">
+    <p class="p1">
+      <span style="color: red !important;">❤️</span>
+      🧲 Holbogdood udaaq c yaj ingej hurdan 
+      tatagdaad bgaaga oilghgueen 🧲
+      💨 Iim hurdan bj bolno gju? Hha
+      <span style="color: red !important;">❤️</span>
+    </p>
+  </div>
+
+  <div class="paper">
+    <p class="p1">
+      💌 Hoooopiiiii niiuuw year 🎄
+      Odooo ghde dunguj 5 boljgamu hha 💌
+    </p>
+  </div>
+
+  <div class="paper">
+    <p class="p1">
+      Zia ene tsaasnuudiig hudulguurei 
+      <br>
+        Jich : Kyrilleer bicii gesen font ni boldgue
+      <br>
+      (ノへ￣、)
+    </p>
+  </div>
+  
+  <script src="./mobile.js"></script>
+
+</body>
+
+<script>
+  function showProposalMessage() {
+    // document.getElementById("proposal-message").style.display = "block";
+    // document.getElementById("yes-button").style.display = "none";
+    // document.getElementById("no-button").style.display = "none";
+    document.getElementById("yes").style.display = "block";
+    document.getElementById("props").style.display = "none";
+  }
+
+  function animateNo() {
+    var messages = [
+      "Uu darcij bgamu, anduursan bh te?",
+      "Dahiad uzdee",
+      "Ene yg gatscihaj",
+      "Ayayayya ",
+      "Tegiida deer ni daraad uzeh uu?"
+    ];
+
+    var randomMessage = messages[Math.floor(Math.random() * messages.length)];
+
+    alert(randomMessage);
+  }
+</script>
+
+</html>
